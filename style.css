@@ -26,7 +26,7 @@ img {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   max-width: 370px;
 }
 
@@ -63,7 +63,7 @@ nav a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 68vh;
+  height: 98vh;
   font-family: 'overpass', 'sans-serif';
   font-size: 20px;
   text-align: center;
@@ -216,6 +216,29 @@ margin-top: 25px;
 margin-bottom: 20px;
 }
 
+.ephe{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.typecooker{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.typecooker2{
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  gap: 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
 .trouble{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -231,9 +254,25 @@ margin-bottom: 20px;
   margin-bottom: 25px;
 }
 
+.grid-casette2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .edition-principal{
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.hypallage{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   gap: 35px;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -268,4 +307,109 @@ font-size: 23px;
   width: 100%;
   height: 2px;
   background-color: rgb(222, 65, 175);
+}
+
+.contact{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(222, 65, 175)
+}
+
+.mailto{
+  color: rgb(222, 65, 175);
+}
+
+.VINYL{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.VINYL2{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.asso{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.modules{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.modules-posters{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.modules-ed{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.IA{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.manchot{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.manchot2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.identite{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.identite2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.identite3{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
